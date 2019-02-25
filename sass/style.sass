@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100)
+
+body
+	font-family: 'Lato'
+	background: #2980b9
+	overflow: hidden
+	height: 100%
+	width: 100%
+	-webkit-font-smoothing: antialiased
+	user-select: none
+
+#particles-js, #parallax, .layer, .some-space, .some-more-space
+	height: 100%
+	position: absolute
+	width: 100%
+
+#particles-js
+	opacity: .6
+
+h1
+	color: white
+	font-size: 5em
+	font-weight: 100
+	letter-spacing: .2em
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate3d(-50%,-50%,0)
+
+a
+	color: white
+	border: 1px solid white
+	display: table
+	position: absolute
+	top: 60%
+	left: 50%
+	letter-spacing: .05em
+	transform: translate3d(-50%,-50%,0)
+	text-decoration: none
+	transition: all 200ms ease
+	padding: 10px 15px
+	&:hover
+		background: white
+		color: black
+
+.some-space
+	animation: rotate 18s .5s infinite linear reverse
+
+.some-more-space
+	animation: rotate 15s .1s infinite linear
+
+@keyframes rotate
+	0%
+		transform: rotateZ(0deg) translate3d(0,1.5%,0) rotateZ(0deg)
+	100%
+		transform: rotateZ(360deg) translate3d(0,1.5%,0) rotateZ(-360deg)
+
+
+
+

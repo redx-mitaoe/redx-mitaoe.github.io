@@ -1,0 +1,165 @@
+
+
+
+/* Nav / Navbar Styles
+===================================*/
+.navbar {
+	background: transparent;
+	border-bottom: none;
+	padding: 30px 0 10px;
+	transition-duration: 0.6s;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #183532;
+}
+.navbar-default .navbar-nav>li {
+	margin-right: 8px;
+}
+.navbar-default .navbar-nav>li:last-of-type {
+	margin-right: 0;
+}
+.dropdown-menu,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+	background: rgba(24,53,50, 0.1);
+}
+.dropdown-menu {
+	padding: 8px;
+	box-shadow: none;
+	border: none;
+}
+.dropdown-menu li a {
+	padding: 4px 8px;
+	border-radius: 6px;
+}
+.nav-dropdown-scroll {
+	background: #e7eaea;
+	box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+.navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background: #fff;
+}
+
+
+
+
+
+/* CSS Image Styles
+====================================================*/
+.css-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.img-designers,
+.img-developers {
+	height: 400px;
+	width: 400px;
+	background-position: center center;
+	background-size: cover;
+}
+.img-designers {
+	background: #183532;
+}
+.img-developers {
+	background: #2A5C56;
+}
+
+
+
+/* To Top Button Styles
+===================================*/
+.top {
+	display: none;
+	background-color: #5C3359;
+	bottom: 2em;
+	color: #FFF;
+	opacity:0.8;
+	padding: 1.2em;
+	position: fixed;
+	right: 1.5em;
+	text-decoration: none;
+	transition-duration: 1s;
+}
+.top:hover {
+	opacity: 1;
+	transition: 1s;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* Footer Styles
+===================================*/
+footer {
+	height: 600px;
+	width: 100%;
+	background: #283332;
+}
+
+
+/* Helpers for top position on internal page links
+====================================================*/
+#spytop:before,
+section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+
+
+/* Media Styles
+===================================*/
+@media (min-width: 480px) {
+	body {
+		font-size: 16px;
+	}	
+}
+@media (min-width: 768px) {
+	.section-one-content {
+		padding: 40px 40px;
+	}	
+}
+@media (min-width: 992px) {
+	.section-one-content {
+		padding: 40px 20px;
+	}	
+}
+@media (min-width: 1200px) {
+	.section-one-content {
+		padding: 40px 40px;
+	}	
+}
+@media screen and (max-width: 768px) {
+    #myNavBar {background-color: #006495;height: auto;padding: 12px 0px;}
+    .navbar-header{ height: 74px;}
+    #myNavBar a{height:auto;}
+    .navbar-nav {margin: 0px auto !important;}
+    #mainNavbar > li {margin-left: 0px;border-radius: 4px;margin-top:7px;}
+    #callToActionBtnSecondary{padding: 10px;}
+    #calltoactiondiv{padding:10px;}
+    #testimonials h1{padding: 0px;margin: 0px auto;}
+   .jumbotron{padding-top:0px !important;}
+    }
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+	background: #ffffff;
+	padding: 0;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
