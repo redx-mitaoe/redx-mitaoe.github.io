@@ -6,7 +6,7 @@ body{
 
 }
 p{
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
 }
 p.copyright {
@@ -31,8 +31,8 @@ p.copyright a:hover {
 }
 .nav-item{
   font-weight: bold;
-  font-size: 13px;
-  padding-right: 3px;
+  font-size: 18px;
+  padding-right: 4px;
 }
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus{
   background: #363436;
