@@ -168,12 +168,7 @@ h2 {
     text-align: left;
 }
 
-.roundimage img{
-    margin-top:20px;
-    border-radius: 200px;
-    height:150px;
-    width:150px;
-}
+
 .content-link {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #cdcdcd;
