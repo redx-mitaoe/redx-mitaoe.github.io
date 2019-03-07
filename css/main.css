@@ -108,7 +108,7 @@ p.copyright a:hover {
       max-width: 100%;
 }
 .three{
-      background-image: linear-gradient(to top right,#e52a2a,#e52a2a, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
+      background-image: linear-gradient(to top right,#e52a2a, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
       color: #fff;
             max-width: 100%;
 
@@ -120,6 +120,11 @@ p.copyright a:hover {
             max-width: 100%;
 
 
+}
+.five{
+  background-image: linear-gradient(to top right,#e52a2a,#e52a2a, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
+      color: #000;
+            max-width: 100%;
 }
 
 a, a:visited, a:hover, a:active {
@@ -142,8 +147,20 @@ hr {
   border-width: 1px;
   color: #e52a2a;
 }
+/* # Table
+================================ */
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
 
-
+}
+th, td {
+  padding: 1%;
+  text-align:justify-all;    
+  font-size: 20px;
+  color: #fff;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\||||||||||||||||||||||||||||||||||||||||||||||||||||||//////////////////////////////////*/
 
 
 .fa {
