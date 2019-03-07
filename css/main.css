@@ -108,14 +108,14 @@ p.copyright a:hover {
       max-width: 100%;
 }
 .three{
-      background-image: linear-gradient(to top right,#e52a2a, #e52a2a,#363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
+      background-image: linear-gradient(to top right,#e52a2a, #e52a2a,#e52a2a,#363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
       color: #fff;
             max-width: 100%;
 
 
 }
 .four{
-      background-image: linear-gradient(to top left,#000, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#e52a2a, #e52a2a);
+      background-image: linear-gradient(to top left,#000, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#363436,#363436,#e52a2a, #e52a2a);
       color: #000;
             max-width: 100%;
 
