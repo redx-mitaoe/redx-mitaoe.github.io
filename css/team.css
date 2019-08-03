@@ -84,13 +84,13 @@ body {
     bottom: 10%;
 }
 .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
+    opacity: 0;
 }
 .team-hover .s-link {
     position: absolute;
     bottom: 0;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     text-align: center;
     -webkit-transform: translateY(45%);
     -ms-transform: translateY(45%);
