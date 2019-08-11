@@ -125,6 +125,14 @@ p.copyright a:hover {
             max-width: 100%;
 }
 
+.seven{
+      background-image: linear-gradient(to top right,#e52a2a,#e52a2a, #363436,#363436,#363436,#363436,#363436,#363436,#363436,#000 );
+      color: #fff;
+            max-width: 100%;
+
+
+}
+
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
